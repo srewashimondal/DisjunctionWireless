@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disjunction Wireless</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload = "initialize();">
+    
+    <script src="script.js"></script>
+
+    <h1>Disjunction Wireless</h1>
+    <p>Welcome to Disjunction Wireless!</p>
+    <hr />
+
+    <!-- This is the "Analysis of the Data from the Table", which includes the number of customers using each plan, the best and worst plan for the company, the percentage of people using and not using the best plan, and the average overpayment by the customers.-->
+    <h2>Analysis of the Customer Phone Plan Data</h2>
+    
+    <!--These show the three phone plans: Basic, Comprehensive, and Sucker.-->
+    <div id = "numBasic">The number of customers with Basic Plan: </div>
+    <div id = "numComp">The number of customers with Comprehensive Plan: </div>
+    <div id = "numSucker">The number of customers with Sucker Plan: </div>
+    <br />
+    <!--This reveals which plan is best and which plan is worst. -->
+    <div id = "bestPlan">The best plan for Disjunction Wireless is: </div>
+    <div id = "worstPlan">The worst plan for Disjunction Wireless is: </div>
+    <br />
+    <!--This gives percentage information regarding customers with Best Plan and without it. -->
+    <div id="bestPercent">The percentage of customers with Best Plan is: </div>
+    <div id="notBest">The percentage of customers not using the Best Plan is: </div>
+    <br />
+    <div id ="avgOverpay"> The average overpayment is: </div>
+    <br />
+    <div id ="unlimitedPlan"> Percentage of customers that the unlimited plan work best as a replacement
+    for their current plan: </div>
+    <p id="demo"></p>
+    <hr />
+
+    <!-- This is "Table of the Customer Data", which includes phone number, data usage in megabytes, data plan, and monthly bill -->
+    <h3>Table of Customer Phone Plan Data</h3>
+
+    <!--This is what the table on the webpage is created with. -->
+    <table id = "datatable">
+      <tr>
+        <th>Customer #</th>
+        <th>Customer’s phone number</th>
+        <th>The customer’s data usage(megabytes)</th>
+        <th>The customer’s data plan</th>
+        <th>The cost of basic plan</th>
+        <th>The cost of comprehensive plan</th>
+        <th>The cost of sucker plan</th>
+        <th>The cost of the unlimited plan </th>
+      </tr>
+    </table>
+  </body>
+</html>
