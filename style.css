@@ -1,0 +1,61 @@
+body
+{
+  background-color: rgb(252, 235, 251);
+  color:rgb(61, 47, 47);
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1
+{
+  color:rgb(221, 28, 28); 
+  text-align:center;
+  text-decoration:underline;
+}
+
+p
+{
+  text-align: center;
+  font-size:18px;
+}
+
+h2
+{
+  color:rgb(182, 80, 13);
+  text-align:center;
+}
+
+h3
+{
+  color: rgb(182, 80, 13);
+  text-align:center;
+  font-size:24px;
+}
+
+/*This helps set the table color, border and centers it*/
+table
+{
+  height:400px;
+  width: 1250px;
+  display:block;
+  margin-right:auto;
+  overflow-y:scroll;
+  text-align: center;
+  border: thick solid rgb(124, 16, 16);
+  border-collapse: collapse;
+  align-content: center;
+  margin-left:auto;
+}
+
+th, td
+{
+  background-color: rgb(236, 236, 173);
+  border: thin solid rgb(161, 160, 160);
+  padding: 10px;
+  width: 100;
+  //align-content is a property of CSS Grid. Here, it makes sure that the items are centered.
+  align-content:center;
+    //align-content is a property of CSS Grid. Here, it makes sure that the items are centered.
+  align-items:baseline;
+  margin-left:auto;
+  margin-right:auto;
+}
